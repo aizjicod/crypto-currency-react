@@ -1,11 +1,14 @@
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
+import { getIdData } from '../redux/details/details';
 
 const HomeList = ({
   name, img, id, value, text,
 }) => {
+  const dispatch = useDispatch();
   const handleClick = () => {
-    console.log(id);
+    dispatch(getIdData(id));
   };
   return (
     <li>
