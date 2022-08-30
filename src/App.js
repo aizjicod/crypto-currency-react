@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <header>
         <NavLink to="/">home</NavLink>
-        <NavLink to="details">details</NavLink>
       </header>
 
       <Routes>

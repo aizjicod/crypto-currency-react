@@ -4,7 +4,7 @@ import reducer from './home/home';
 
 const store = configureStore({
   reducer: {
-    reducer,
+    cryptoData: reducer,
   },
 }, applyMiddleware(thunk));
 

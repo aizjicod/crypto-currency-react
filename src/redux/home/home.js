@@ -2,11 +2,12 @@ import apiServices from '../../api/http';
 
 const GET_DATA = 'space-thub/misssions/GET_DATA';
 
-export const getData = () => async (dispatch) => {
+export const getData = (value) => async (dispatch) => {
   try {
     const res = await apiServices.get();
-    const selectedData = []
-    for (let i = 0; i < 20; i++) {
+    res.data.sort((a, b) => b[value] - a[value]);
+    const selectedData = [];
+    for (let i = 0; i < 20; i += 1) {
       selectedData.push(res.data[i]);
     }
     dispatch({

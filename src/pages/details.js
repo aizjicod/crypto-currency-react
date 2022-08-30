@@ -1,6 +1,8 @@
 const Details = () => (
   <>
-    Details
+    <header>
+    <NavLink to="/">home</NavLink>
+    </header>
   </>
 );
 
