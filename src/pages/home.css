@@ -38,7 +38,7 @@
   font-weight: 700;
   color: #fff;
   text-align: center;
-  margin-bottom: 15px ;
+  margin-bottom: 15px;
   box-shadow: 0 10px 10px var(--colorList);
 }
 
@@ -57,7 +57,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap:10px
+  gap: 10px;
 }
 
 .home-list {
@@ -85,7 +85,7 @@
   flex-wrap: wrap;
 }
 
-.list-header > img{
+.list-header > img {
   width: 60%;
   height: 70px;
   margin-right: 20px;

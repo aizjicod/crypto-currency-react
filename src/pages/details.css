@@ -25,7 +25,7 @@
   color: #fff;
 }
 
-.header-detail img{
+.header-detail img {
   width: 100px;
   clip-path: polygon(100% 50%, 65.45085% 97.55283%, 9.54915% 79.38926%, 9.54915% 20.61074%, 65.45085% 2.44717%);
 }
@@ -57,7 +57,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  box-shadow: 0 10px 10px var(--colorList)
+  box-shadow: 0 10px 10px var(--colorList);
 }
 
 .data-p:nth-child(even) {
@@ -65,10 +65,10 @@
   box-shadow: 0 10px 10px var(--colorList2);
 }
 
-.data-p.green{
+.data-p.green {
   color: #008846;
 }
 
-.data-p.red{
+.data-p.red {
   color: #a92656;
 }
