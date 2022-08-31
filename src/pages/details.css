@@ -52,15 +52,17 @@
   font-size: 1.5em;
   color: #fff;
   padding: 1em;
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-shadow: 0 10px 10px var(--colorList)
 }
 
 .data-p:nth-child(even) {
   background: var(--colorList);
+  box-shadow: 0 10px 10px var(--colorList2);
 }
 
 .data-p.green{

@@ -1,6 +1,5 @@
 :root {
   --mainColor: #034e74;
-  --secondaryColor: #e99dcb;
   --colorList: #171430;
   --colorList2: #201c42;
   --listBackgroundOpaciy: #17143099;
@@ -27,9 +26,9 @@
 }
 
 .filter-selection {
-  border: 2px solid var(--secondaryColor);
+  border: none;
   outline: none;
-  background: var(--secondaryColor);
+  background: var(--colorList2);
   border-radius: 5px;
   margin: 0;
   display: block;
@@ -37,9 +36,10 @@
   padding: 12px 0 15px 15px;
   font-size: 1.5em;
   font-weight: 700;
-  color: var(--colorLetter);
+  color: #fff;
   text-align: center;
   margin-bottom: 15px ;
+  box-shadow: 0 10px 10px var(--colorList);
 }
 
 .filter-selection option {
@@ -56,15 +56,18 @@
 .ul-home-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap:10px
 }
 
 .home-list {
-  width: 50%;
+  width: 48%;
   list-style: none;
   background: var(--colorList2);
   padding: 20px 10px;
   color: #fff;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
