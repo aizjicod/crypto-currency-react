@@ -2,6 +2,10 @@
 
 this porject will be done with React. the user will see a list of crypto currency coins on te main page. the use can filter the coins wih 3 methods. when clicked any of the coins the page rout will change and will display aditional data/information of the coin in specific .
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+## Live Version
+
+Check out the [live version](https://crypto-daily-react.netlify.app)
 ## Available Scripts
 
 In the project directory, you can run:
