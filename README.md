@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Version
 
-Check out the [live version](https://crypto-daily-react.netlify.app)
+Check out the [live version](https://unrivaled-profiterole-9f63fe.netlify.app)
 ## Available Scripts
 
 In the project directory, you can run:
