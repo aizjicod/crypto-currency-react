@@ -2,14 +2,14 @@ import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { TiArrowBack } from 'react-icons/ti';
 import DetailInformation from '../components/detailinformation';
+import './details.css';
 
 const Details = () => {
   const data = useSelector((state) => state.idData);
-  console.log(data);
   return (
     <>
-      <header>
-        <NavLink to="/"><TiArrowBack /></NavLink>
+      <header className="header">
+        <NavLink to="/"><TiArrowBack className="back-arrow" /></NavLink>
       </header>
       {data ? (
         <DetailInformation

@@ -4,20 +4,26 @@ const DetailInformation = ({
   img, name, totalSupply, circulatingSupply, priceChange1yr, lastTickers,
 }) => (
   <>
-    <img src={img} alt={name} />
-    <h1>{name}</h1>
-    <p>
-      {`Total supply: ${totalSupply}`}
-    </p>
-    <p>
-      {`circulating supply: ${circulatingSupply}`}
-    </p>
-    <p>
-      {`change of coin in a year: ${priceChange1yr}%`}
-    </p>
-    <p>
-      {`last tickets: ${lastTickers}`}
-    </p>
+    <header className="header-detail">
+      <img src={img} alt={name} className />
+      <h1>{name}</h1>
+    </header>
+    <h2 className="detail-h2">Principal Data</h2>
+    <div className="data-div">
+      <p className="data-p">
+        {`Total supply: ${totalSupply}`}
+      </p>
+      <p className="data-p">
+        {`circulating supply: ${circulatingSupply}`}
+      </p>
+      <p className={priceChange1yr > 0 ? 'data-p green' : 'data-p red'}>
+        {`change of coin in a year: ${priceChange1yr}%`}
+      </p>
+      <p className="data-p">
+        {`last tickets: ${lastTickers}`}
+      </p>
+
+    </div>
   </>
 );
 

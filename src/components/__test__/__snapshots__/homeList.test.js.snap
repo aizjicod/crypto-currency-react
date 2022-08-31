@@ -5,43 +5,85 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <li>
-        <h2>
-          etherium
-        </h2>
-        <img
-          alt="etherium"
-          src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
-        />
-        <p>
-          market: 150$
-        </p>
+      <li
+        class="home-list"
+      >
+        <div
+          class="list-header"
+        >
+          <img
+            alt="etherium"
+            src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
+          />
+          <h2>
+            etherium
+          </h2>
+          <p
+            class="list-p"
+          >
+            market: 150$
+          </p>
+        </div>
         <a
-          class=""
+          class="list-nav"
           href="/details"
         >
-          see more
+          <svg
+            class="more-arrow"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A.998.998 0 0 0 5 3v18a1 1 0 0 0 .536.886zM7 4.909 17.243 12 7 19.091V4.909z"
+            />
+          </svg>
         </a>
       </li>
     </div>
   </body>,
   "container": <div>
-    <li>
-      <h2>
-        etherium
-      </h2>
-      <img
-        alt="etherium"
-        src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
-      />
-      <p>
-        market: 150$
-      </p>
+    <li
+      class="home-list"
+    >
+      <div
+        class="list-header"
+      >
+        <img
+          alt="etherium"
+          src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
+        />
+        <h2>
+          etherium
+        </h2>
+        <p
+          class="list-p"
+        >
+          market: 150$
+        </p>
+      </div>
       <a
-        class=""
+        class="list-nav"
         href="/details"
       >
-        see more
+        <svg
+          class="more-arrow"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A.998.998 0 0 0 5 3v18a1 1 0 0 0 .536.886zM7 4.909 17.243 12 7 19.091V4.909z"
+          />
+        </svg>
       </a>
     </li>
   </div>,
@@ -104,43 +146,85 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <li>
-        <h2>
-          cordana
-        </h2>
-        <img
-          alt="cordana"
-          src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
-        />
-        <p>
-          price: 11357320$
-        </p>
+      <li
+        class="home-list"
+      >
+        <div
+          class="list-header"
+        >
+          <img
+            alt="cordana"
+            src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
+          />
+          <h2>
+            cordana
+          </h2>
+          <p
+            class="list-p"
+          >
+            price: 11357320$
+          </p>
+        </div>
         <a
-          class=""
+          class="list-nav"
           href="/details"
         >
-          see more
+          <svg
+            class="more-arrow"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A.998.998 0 0 0 5 3v18a1 1 0 0 0 .536.886zM7 4.909 17.243 12 7 19.091V4.909z"
+            />
+          </svg>
         </a>
       </li>
     </div>
   </body>,
   "container": <div>
-    <li>
-      <h2>
-        cordana
-      </h2>
-      <img
-        alt="cordana"
-        src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
-      />
-      <p>
-        price: 11357320$
-      </p>
+    <li
+      class="home-list"
+    >
+      <div
+        class="list-header"
+      >
+        <img
+          alt="cordana"
+          src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
+        />
+        <h2>
+          cordana
+        </h2>
+        <p
+          class="list-p"
+        >
+          price: 11357320$
+        </p>
+      </div>
       <a
-        class=""
+        class="list-nav"
         href="/details"
       >
-        see more
+        <svg
+          class="more-arrow"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A.998.998 0 0 0 5 3v18a1 1 0 0 0 .536.886zM7 4.909 17.243 12 7 19.091V4.909z"
+          />
+        </svg>
       </a>
     </li>
   </div>,
