@@ -12,12 +12,20 @@
 }
 
 .header {
-  padding: 10px 0;
+  padding: 20px 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   background: var(--listBackgroundOpaciy);
   color: #fff;
+}
+
+.header h1{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .banner-img {
@@ -54,14 +62,14 @@
 /* start of list on home section */
 
 .ul-home-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 190px);
   justify-content: center;
   gap: 10px;
 }
 
 .home-list {
-  width: 48%;
+  width: 100%;
   list-style: none;
   background: var(--colorList2);
   padding: 20px 10px;
@@ -72,6 +80,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 10px 10px var(--colorList);
 }
 
 .home-list:nth-child(3n) {
@@ -107,4 +116,15 @@
   color: #fff;
   font-size: 1.5em;
   font-weight: 900;
+}
+
+@media screen and (min-width: 768px ) {
+  .ul-home-list {
+    gap: 20px;
+  }
+
+  .header h1{
+    width: 40%;
+  
+  }
 }

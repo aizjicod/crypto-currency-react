@@ -5,7 +5,7 @@ const DetailInformation = ({
 }) => (
   <>
     <header className="header-detail">
-      <img src={img} alt={name} className />
+      <img src={img} alt={name} />
       <h1>{name}</h1>
     </header>
     <h2 className="detail-h2">Principal Data</h2>

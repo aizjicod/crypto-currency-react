@@ -8,7 +8,7 @@ const Details = () => {
   const data = useSelector((state) => state.idData);
   return (
     <>
-      <header className="header">
+      <header>
         <NavLink to="/"><TiArrowBack className="back-arrow" /></NavLink>
       </header>
       {data ? (
