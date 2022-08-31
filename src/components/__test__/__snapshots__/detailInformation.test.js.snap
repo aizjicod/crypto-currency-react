@@ -5,6 +5,52 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <header
+        class="header-detail"
+      >
+        <img
+          alt="bitcoin"
+          src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
+        />
+        <h1>
+          bitcoin
+        </h1>
+      </header>
+      <h2
+        class="detail-h2"
+      >
+        Principal Data
+      </h2>
+      <div
+        class="data-div"
+      >
+        <p
+          class="data-p"
+        >
+          Total supply: 1111111000000
+        </p>
+        <p
+          class="data-p"
+        >
+          circulating supply: 135464685
+        </p>
+        <p
+          class="data-p green"
+        >
+          change of coin in a year: 1354200687651%
+        </p>
+        <p
+          class="data-p"
+        >
+          last tickets: 3857351203571
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="header-detail"
+    >
       <img
         alt="bitcoin"
         src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
@@ -12,40 +58,36 @@ Object {
       <h1>
         bitcoin
       </h1>
-      <p>
+    </header>
+    <h2
+      class="detail-h2"
+    >
+      Principal Data
+    </h2>
+    <div
+      class="data-div"
+    >
+      <p
+        class="data-p"
+      >
         Total supply: 1111111000000
       </p>
-      <p>
+      <p
+        class="data-p"
+      >
         circulating supply: 135464685
       </p>
-      <p>
+      <p
+        class="data-p green"
+      >
         change of coin in a year: 1354200687651%
       </p>
-      <p>
+      <p
+        class="data-p"
+      >
         last tickets: 3857351203571
       </p>
     </div>
-  </body>,
-  "container": <div>
-    <img
-      alt="bitcoin"
-      src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
-    />
-    <h1>
-      bitcoin
-    </h1>
-    <p>
-      Total supply: 1111111000000
-    </p>
-    <p>
-      circulating supply: 135464685
-    </p>
-    <p>
-      change of coin in a year: 1354200687651%
-    </p>
-    <p>
-      last tickets: 3857351203571
-    </p>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -106,6 +148,52 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <header
+        class="header-detail"
+      >
+        <img
+          alt="bitcoin"
+          src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
+        />
+        <h1>
+          bitcoin
+        </h1>
+      </header>
+      <h2
+        class="detail-h2"
+      >
+        Principal Data
+      </h2>
+      <div
+        class="data-div"
+      >
+        <p
+          class="data-p"
+        >
+          Total supply: 200
+        </p>
+        <p
+          class="data-p"
+        >
+          circulating supply: 20
+        </p>
+        <p
+          class="data-p red"
+        >
+          change of coin in a year: -50%
+        </p>
+        <p
+          class="data-p"
+        >
+          last tickets: 5
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="header-detail"
+    >
       <img
         alt="bitcoin"
         src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
@@ -113,40 +201,36 @@ Object {
       <h1>
         bitcoin
       </h1>
-      <p>
+    </header>
+    <h2
+      class="detail-h2"
+    >
+      Principal Data
+    </h2>
+    <div
+      class="data-div"
+    >
+      <p
+        class="data-p"
+      >
         Total supply: 200
       </p>
-      <p>
+      <p
+        class="data-p"
+      >
         circulating supply: 20
       </p>
-      <p>
+      <p
+        class="data-p red"
+      >
         change of coin in a year: -50%
       </p>
-      <p>
+      <p
+        class="data-p"
+      >
         last tickets: 5
       </p>
     </div>
-  </body>,
-  "container": <div>
-    <img
-      alt="bitcoin"
-      src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579"
-    />
-    <h1>
-      bitcoin
-    </h1>
-    <p>
-      Total supply: 200
-    </p>
-    <p>
-      circulating supply: 20
-    </p>
-    <p>
-      change of coin in a year: -50%
-    </p>
-    <p>
-      last tickets: 5
-    </p>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
