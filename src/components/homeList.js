@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
+import { BiRightArrow } from 'react-icons/bi';
 import { getIdData } from '../redux/details/details';
 
 const HomeList = ({
@@ -11,11 +12,13 @@ const HomeList = ({
     dispatch(getIdData(id));
   };
   return (
-    <li>
-      <h2>{name}</h2>
-      <img src={img} alt={name} />
-      <p>{`${text}: ${value}$`}</p>
-      <NavLink to="details" onClick={handleClick}>see more</NavLink>
+    <li className="home-list">
+      <div className="list-header">
+        <img src={img} alt={name} />
+        <h2>{name}</h2>
+        <p className="list-p">{`${text}: ${value}$`}</p>
+      </div>
+      <NavLink className="list-nav" to="details" onClick={handleClick}><BiRightArrow className="more-arrow" /></NavLink>
     </li>
   );
 };
