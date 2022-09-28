@@ -26,11 +26,12 @@
   width: 100%;
   text-align: center;
   margin-bottom: 10px;
+  position: absolute;
 }
 
 .banner-img {
   width: 40%;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .filter-selection {
@@ -65,10 +66,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 190px);
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .home-list {
+  position: relative;
   width: 100%;
   list-style: none;
   background: var(--colorList2);
@@ -83,6 +85,35 @@
   box-shadow: 0 10px 10px var(--colorList);
 }
 
+.home-list::before{
+  content: "";
+  position:absolute;
+  width: 100%;
+  height: 50%;
+  background: #ffffff0c;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: 0.5s;
+}
+
+.home-list::after{
+  content: "";
+  position:absolute;
+  width: 100%;
+  height: 50%;
+  background: #ffffff0c;
+    border-bottom-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  filter: blur(30px);
+  transition: 0.5s;
+}
+
+.home-list:hover:after,
+.home-list:hover::before {
+  content: '';
+  height: 100%;
+}
+
 .home-list:nth-child(3n) {
   background: var(--colorList);
 }
@@ -92,23 +123,27 @@
   width: 85%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .list-header > img {
   width: 60%;
   height: 70px;
   margin-right: 20px;
+  transition: 1.5s;
 }
 
 .list-header > p,
 .list-header > h2 {
   display: inline;
   width: 100%;
+  display: none;
 }
 
 .list-nav {
   z-index: 4;
   width: 10%;
+  display: none;
 }
 
 .more-arrow {
@@ -116,14 +151,41 @@
   color: #fff;
   font-size: 1.5em;
   font-weight: 900;
+  display: none;
+}
+
+.home-list:hover p,
+.home-list:hover  h2,
+.home-list:hover .list-nav,
+.home-list:hover .more-arrow {
+  display: block;
+  animation: appear-text 1.5s ease-out;
+}
+
+  .home-list:hover img {
+    transform: translateX(-25px);
+}
+
+@keyframes appear-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .ul-home-list {
-    gap: 20px;
+    gap: 50px;
   }
 
   .header h1 {
     width: 40%;
+  }
+
+  .home-list {
+    height: 195px;
+    padding: 10px;
   }
 }
