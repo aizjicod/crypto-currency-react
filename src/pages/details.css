@@ -1,0 +1,80 @@
+:root {
+  --mainColor: #034e74;
+  --secondaryColor: #b859e4;
+  --colorList: #171430;
+  --colorList2: #201c42;
+  --listBackgroundOpaciy: #17143099;
+}
+
+.back-arrow {
+  font-size: 4em;
+  color: #fff;
+  position: absolute;
+  top: 60px;
+}
+
+.header-detail {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--listBackgroundOpaciy);
+  color: #fff;
+}
+
+.header-detail img {
+  width: 100px;
+  clip-path: polygon(100% 50%, 65.45085% 97.55283%, 9.54915% 79.38926%, 9.54915% 20.61074%, 65.45085% 2.44717%);
+}
+
+.header-detail img::before {
+  content: 'pija';
+  width: 100%;
+  font-size: 2em;
+}
+
+.detail-h2 {
+  padding: 10px;
+  width: 100%;
+  background: var(--colorList);
+  color: #fff;
+  text-align: center;
+}
+
+.data-div {
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.data-p {
+  width: 90%;
+  border-radius: 20px;
+  background: var(--colorList2);
+  font-size: 1.5em;
+  color: #fff;
+  padding: 1em;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 10px var(--colorList);
+}
+
+.data-p:nth-child(even) {
+  background: var(--colorList);
+  box-shadow: 0 10px 10px var(--colorList2);
+}
+
+.data-p.green {
+  color: #008846;
+}
+
+.data-p.red {
+  color: #a92656;
+}
