@@ -30,7 +30,7 @@
   clip-path: polygon(100% 50%, 65.45085% 97.55283%, 9.54915% 79.38926%, 9.54915% 20.61074%, 65.45085% 2.44717%);
 }
 
-.header-detail img:before {
+.header-detail img::before {
   content: 'pija';
   width: 100%;
   font-size: 2em;
