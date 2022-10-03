@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="header">
-        <img className="banner-img" src="https://elcomercio.pe/resizer/tNc4BvB-sHc9itLzR2BYgt9MPWA=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/ZNFZTEQ2M5BFFEXAPKXRIVOGEA.jpg" alt="block chain" />
+        <img className="banner-img" src="https://images.unsplash.com/photo-1639152201517-7eaa34c6a28c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="block chain" />
         <h1>Block Chain Main Coins</h1>
       </div>
       <select className="filter-selection" onChange={handleChange}>
